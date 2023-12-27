@@ -2,6 +2,7 @@ import os, platform, time, sys
 try:
  import requests
 except:os.system("pip uninstall requests -y;pip install requests")
+os.system('clear')
 print('\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;92m CHECKING UPDATE...')
 os.system('git pull --quiet 2>/dev/null')
 bit = platform.architecture()[0]
